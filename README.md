@@ -1,6 +1,6 @@
-# Super Mario 64 Plus
+# SM64 Plus
 
-Super Mario 64 Plus is a fork of [sm64-port](https://github.com/sm64-port/sm64-port) that focuses on customizability and aims to add features that not only fix some of the issues found in the base game but also enhance the gameplay overall with extra options.
+SM64 Plus is a fork of [sm64-port](https://github.com/sm64-port/sm64-port) that focuses on customizability and aims to add features that not only fix some of the issues found in the base game but also enhance the gameplay overall with extra options.
 
 These features include (but not limited to):
 - More responsive controls
@@ -13,7 +13,7 @@ These features include (but not limited to):
 
 Download the launcher from MFGG: https://www.mfgg.net/?act=resdb&param=02&c=2&id=38190
 
-If you need support, please head to the Super Mario Flashback official Discord server: http://discord.mors-games.com/
+If you need support, please head to the SM Flashback official Discord server: http://discord.mors-games.com/
 
 This repo does **not** include all the assets necessary for compiling the game. A prior copy of the game is required to extract the assets. Binaries of the game itself will **not** be distributed for this very reason.
 
@@ -111,7 +111,7 @@ If you're still stuck after trying all that, you can post your error to the #hel
   * 32-bit (untested, but should also work on 64-bit machines): Launch "MSYS2 MinGW 32-bit" and install: `pacman -S git make python3 mingw-w64-i686-gcc mingw-w64-i686-SDL2 mingw-w64-i686-glew`
   * Do not install `gcc`.
 3. Clone the repo with `git clone https://github.com/MorsGames/sm64plus.git`, then enter it with `cd sm64plus`.
-4. Place a *Super Mario 64* ROM called `baserom.us.z64` into the repository folder for asset extraction.
+4. Place a *SM64* ROM called `baserom.us.z64` into the repository folder for asset extraction.
 5. Run `make` to build. You can add `-j4` to improve build speed (hardware dependent based on the amount of CPU cores available).
 6. The executable binary will be located at `build/us_pc/sm64.us.f3dex2e.exe`.
 
@@ -119,7 +119,7 @@ If you're still stuck after trying all that, you can post your error to the #hel
 
 1. Install prerequisites (Ubuntu) with `sudo apt install -y git build-essential pkg-config libusb-1.0-0-dev libsdl2-dev`.
 2. Clone the repo with `git clone https://github.com/MorsGames/sm64plus.git`.
-3. Place a Super Mario 64 ROM called `baserom.us.z64` into the repository folder for asset extraction.
+3. Place a SM64 ROM called `baserom.us.z64` into the repository folder for asset extraction.
 5. Run `make` to build. You can add `-j4` to improve build speed (hardware dependent based on the amount of CPU cores available).
 5. The executable binary will be located at `build/us_pc/sm64.us.f3dex2e`.
 
